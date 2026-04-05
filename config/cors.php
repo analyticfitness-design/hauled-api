@@ -22,6 +22,8 @@ return [
     'allowed_origins' => [
         'http://hauled.test',
         'http://localhost:3000',
+        'https://hauled.shop',
+        'https://www.hauled.shop',
     ],
 
     'allowed_origins_patterns' => [],
