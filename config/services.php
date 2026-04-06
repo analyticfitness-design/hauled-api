@@ -35,4 +35,14 @@ return [
         ],
     ],
 
+    'wompi' => [
+        'public_key'    => env('WOMPI_PUBLIC_KEY', ''),
+        'secret_key'    => env('WOMPI_SECRET_KEY', ''),
+        'events_secret' => env('WOMPI_EVENTS_SECRET', ''),
+    ],
+
+    'whatsapp' => [
+        'number' => env('WHATSAPP_NUMBER', '573000000000'),
+    ],
+
 ];
